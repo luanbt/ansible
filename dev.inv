@@ -1,14 +1,6 @@
 [webservers]
-172.31.26.174
-172.31.24.40
+192.168.1.159
 
-[loadbalancer]
-172.31.16.64
+[databases]
+192.168.1.171
 
-[weblb:children]
-webservers
-loadbalancer
-
-[weblb:vars]
-ansible_user=ec2-user
-ansible_private_key_file=./node.pem
