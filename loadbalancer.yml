@@ -1,5 +1,5 @@
 ---
-- hosts: loadbalancer
+- hosts: webservers
   become: yes
   tasks:
      - name: Configure Nginx RPM
