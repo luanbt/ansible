@@ -1,5 +1,5 @@
 ---
-- hosts: webservers 
+- hosts: webserver 
   become: True
   vars:
     - http_port: 80
