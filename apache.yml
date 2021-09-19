@@ -14,7 +14,7 @@
       tags:
         - install
       when: 
-        - ansible_os_family=="Centos"
+        - ansible_os_family=="RedHat"
         - ansible_architecture=="x86_64"
     - name: Start Apache server
       service:
